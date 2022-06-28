@@ -1,7 +1,6 @@
-# 計算機視視覺
+# 計算機視覺
 
-## PCB_detect
-### 尚未完成
+## PCB_detect  ### 尚未完成
 
 ## face_module
 ### 偵測臉孔
