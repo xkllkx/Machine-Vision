@@ -26,10 +26,6 @@ def findcontour(img: np.ndarray):
         #cv2.dilate(img, kernel=kernel)
         cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernel)
 
-    
-    
-    
-
     '''
     cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernel) 
     
@@ -88,6 +84,7 @@ def findcontour(img: np.ndarray):
                                       [0, 0, 0, 1, 0, 0, 0],
                                       [0, 0, 0, 1, 0, 0, 0]], dtype=uint8),), **{'iterations': 8})
     '''
+    
     return img
 
 
